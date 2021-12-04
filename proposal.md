@@ -8,3 +8,11 @@ The City of Walnut Creek, like many cities, uses parcel data as a method of orga
 3. <ins>Load</ins> the transformed data into databases, software, and reports. 
 
 Most of these cities' single GIS Analyst has to waste hours of their time by manually processing this ETL pipeline. One typically lost process is determining the parcel changes (a.k.a. Genealogy) as it requires additional manually analysis. This pipeline seeks to utilize cloud databases & computing to transform parcel data while adding metrics on the changes, visualizations, & a map.  
+
+## Data Source
+
+1. Updated Parcel Shapefile
+  * Contra Costa County Tax Assessor Parcels
+  * 
+
+2. 
