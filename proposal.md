@@ -11,8 +11,10 @@ Most of these cities' single GIS Analyst has to waste hours of their time by man
 
 ## Data Source
 
-1. Updated Parcel Shapefile
-  * Contra Costa County Tax Assessor Parcels
+1. Updated County Parcel Shapefile
+  * Contra Costa County Tax Assessor's ArcGIS Service
+    * https://ccmap.cccounty.us/arcgis/rest/services/CCMAP/CCMAP/MapServer/0
+    * 186 MB | 382,702+ rows | 10 columns
   * 
 
 2. 
