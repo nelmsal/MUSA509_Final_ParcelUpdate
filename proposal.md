@@ -9,12 +9,20 @@ The City of Walnut Creek, like many cities, uses parcel data as a method of orga
 
 Most of these cities' single GIS Analyst has to waste hours of their time by manually processing this ETL pipeline. One typically lost process is determining the parcel changes (a.k.a. Genealogy) as it requires additional manually analysis. This pipeline seeks to utilize cloud databases & computing to transform parcel data while adding metrics on the changes, visualizations, & a map.  
 
-## Data Source
+## Data Sources
 
-1. Updated County Parcel Shapefile
-  * Contra Costa County Tax Assessor's ArcGIS Service
+1. Updated County Parcels
+  * Contra Costa County Tax Assessor's ArcGIS REST Service
     * https://ccmap.cccounty.us/arcgis/rest/services/CCMAP/CCMAP/MapServer/0
     * 186 MB | 382,702+ rows | 10 columns
-  * 
 
-2. 
+2. Outdated City Parcel Genealogy 
+  * Walnut Creek Community & Economic Development's ArcGIS REST Service
+  * https://services2.arcgis.com/AhHMUmDoudKVXiUl/ArcGIS/rest/services/Master_Parcels/FeatureServer
+
+3. Walnut Creek Land Use Zoning Designations
+  * Walnut Creek Community & Economic Development's ArcGIS REST Service
+  * https://services2.arcgis.com/AhHMUmDoudKVXiUl/arcgis/rest/services/Zoning_Districts/FeatureServer
+
+## Wireframe
+
