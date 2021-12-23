@@ -29,5 +29,6 @@ This is an ideal format of the website.
 ![Desired Website](https://raw.githubusercontent.com/nelmsal/MUSA509_Final_ParcelUpdate/main/Website_Wireframe.png?raw=true)
 
 Currently, a similar format is already on the City of Walnut Creek website:
-https://www.walnut-creek.org/?NavID=3016
+[https://www.walnut-creek.org/?NavID=3016](https://www.walnut-creek.org/?NavID=3016)
+
 The displayed parcels and map service are hosted on a Walnut Creek ArcGIS SDE server. Ultimately, I want the data, map, and processes displayed on Google Cloud servers 
