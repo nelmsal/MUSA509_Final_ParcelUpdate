@@ -25,5 +25,9 @@ Most of these cities' single GIS Analyst has to waste hours of their time by man
   * https://services2.arcgis.com/AhHMUmDoudKVXiUl/arcgis/rest/services/Zoning_Districts/FeatureServer
 
 ## Wireframe
+This is an ideal format of the website.
 ![Desired Website](https://raw.githubusercontent.com/nelmsal/MUSA509_Final_ParcelUpdate/main/Website_Wireframe.png?raw=true)
 
+Currently, a similar format is already on the City of Walnut Creek website:
+https://www.walnut-creek.org/?NavID=3016
+The displayed parcels and map service are hosted on a Walnut Creek ArcGIS SDE server. Ultimately, I want the data, map, and processes displayed on Google Cloud servers 
