@@ -1,5 +1,5 @@
 # City of Walnut Creek's Parcel Update Report
-*MUSA 508 Final Project Proposal*<br>by Alexander Nelms
+*MUSA 508 Final Project Proposal* <br>by Alexander Nelms
 
 ## Abstract
 The City of Walnut Creek, like many cities, uses parcel data as a method of organizing the land, permitting, and policy decisions. However, the [county’s tax assessor’s office](https://www.contracosta.ca.gov/191/Assessor) organizes the parcel’s assessors parcel number (APN), owners, address, geographic shape, and various characteristic data. The larger issue is that Walnut Creek and many medium-to-small cities (< 100k people) have not developed the data infrastructure to seamlessly:
