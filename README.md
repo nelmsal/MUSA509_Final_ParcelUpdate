@@ -9,8 +9,9 @@ This pipeline seeks to utilize cloud databases & computing to transform parcel d
 ## Intermediate Website
 *missing.html*
 
-## Final Public Website
-[https://www.walnut-creek.org/?NavID=3016](https://www.walnut-creek.org/?NavID=3016)
+## Final Public Website & Map
+[City of Walnut Creek Web Page Report](https://www.walnut-creek.org/?NavID=3016)
+[ArcGIS Map of Parcel Changes](https://walnutcreek.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=7065cafdba814da0a732f165b4e7f2b4)
 
 ## Presentation
 [Google Slides](https://docs.google.com/presentation/d/1EzR_a2lmA9GqN19crQsbIocYkWIY_7C-idhVDaXil-k/edit?usp=sharing)
@@ -24,7 +25,7 @@ This pipeline seeks to utilize cloud databases & computing to transform parcel d
 2. Outdated City Parcel Genealogy 
     * Walnut Creek Community & Economic Development's ArcGIS REST Service
     * https://services2.arcgis.com/AhHMUmDoudKVXiUl/ArcGIS/rest/services/Master_Parcels/FeatureServer
-    * _Now in Google Cloud Storage_ [Bucket](https://storage.cloud.google.com/staging-parcels/genealogy_parcels.parquet)
+    * _Now in Google Cloud Storage_ [Parquet in Bucket](https://storage.googleapis.com/staging-parcels/genealogy_parcels.parquet)
 
 3. Walnut Creek Land Use Zoning Designations
     * Walnut Creek Community & Economic Development's ArcGIS REST Service
