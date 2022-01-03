@@ -10,8 +10,8 @@ This pipeline seeks to utilize cloud databases & computing to transform parcel d
 *missing.html*
 
 ## Final Public Website & Map
-[City of Walnut Creek Web Page Report](https://www.walnut-creek.org/?NavID=3016)
-[ArcGIS Map of Parcel Changes](https://walnutcreek.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=7065cafdba814da0a732f165b4e7f2b4)
+* [City of Walnut Creek Web Page Report](https://www.walnut-creek.org/?NavID=3016)
+* [ArcGIS Map of Parcel Changes](https://walnutcreek.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=7065cafdba814da0a732f165b4e7f2b4)
 
 ## Presentation
 [Google Slides](https://docs.google.com/presentation/d/1EzR_a2lmA9GqN19crQsbIocYkWIY_7C-idhVDaXil-k/edit?usp=sharing)
