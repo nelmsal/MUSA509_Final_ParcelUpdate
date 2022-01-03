@@ -1,4 +1,4 @@
-import get_arcgis_json_df
+import airflow.plugins.get_arcgis_json_df as get_arcgis_json_df
 
 featureservice_path = r"https://services2.arcgis.com/AhHMUmDoudKVXiUl/ArcGIS/rest/services/Master_Parcels/FeatureServer/0/query"
 

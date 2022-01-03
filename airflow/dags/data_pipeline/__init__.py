@@ -5,17 +5,23 @@ from datetime import datetime
 from pathlib import Path
 from pipeline_tools import run_transform_gbq
 
-from . import extract_test
+from data_pipeline import extract_test
 
 with DAG(dag_id='data_pipeline',
-         schedule_interval='@monthly',
-         start_date=datetime(2021, 10, 22),
-         catchup=False) as dag:
+         schedule_interval='@hourly',
+         start_date=datetime(2021, 12, 31),
+         catchup=True) as dag:
     
-    extract_business_licenses_task = PythonOperator(
-        task_id='extract_business_licenses',
-        python_callable=extract_business_licenses.main,
+    extract_test_task = PythonOperator(
+        task_id='extract_test',
+        python_callable=extract_test.main,
     )
+
+    load_tasks = DummyOperator(task_id='stage_test_task')
+    load_tasks << [
+        extract_test_task,
+    ]
+
 
 # from . import extract_business_licenses
 # from . import extract_commercial_corridors

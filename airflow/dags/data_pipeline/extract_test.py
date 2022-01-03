@@ -1,3 +1,6 @@
-from datetime import datetime
+def main():
+    from datetime import datetime as dt
+    print("bubba was seggsy on ", dt.now())
 
-print(datetime.now())
+if __name__ == '__main__':
+    main()
