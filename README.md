@@ -1,6 +1,4 @@
 # City of Walnut Creek's Parcel Update Report
-*MUSA 509 Final  Project* 
-
 *MUSA 508 Final Project Proposal* <br>by Alexander Nelms
 
 This pipeline seeks to utilize cloud databases & computing to transform parcel data while adding metrics on the changes, visualizations, & a map.  
@@ -13,6 +11,9 @@ This pipeline seeks to utilize cloud databases & computing to transform parcel d
 
 ## Final Public Website
 [https://www.walnut-creek.org/?NavID=3016](https://www.walnut-creek.org/?NavID=3016)
+
+## Presentation
+[Google Slides](https://docs.google.com/presentation/d/1EzR_a2lmA9GqN19crQsbIocYkWIY_7C-idhVDaXil-k/edit?usp=sharing)
 
 ## Data Sources
 1. Updated County Parcels
