@@ -24,6 +24,7 @@ This pipeline seeks to utilize cloud databases & computing to transform parcel d
 2. Outdated City Parcel Genealogy 
     * Walnut Creek Community & Economic Development's ArcGIS REST Service
     * https://services2.arcgis.com/AhHMUmDoudKVXiUl/ArcGIS/rest/services/Master_Parcels/FeatureServer
+    * _Now in Google Cloud Storage_ [Bucket](https://storage.cloud.google.com/staging-parcels/genealogy_parcels.parquet)
 
 3. Walnut Creek Land Use Zoning Designations
     * Walnut Creek Community & Economic Development's ArcGIS REST Service
