@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Airflow configuration vars
 export AIRFLOW_HOME=$HOME/airflow
 export AIRFLOW_DB_PASSWORD='ACMPP_dno-219a'
