@@ -1,0 +1,6 @@
+
+airflow/dags/data_pipeline/static_data/SF_Bay_Jurisdictions_Clip.cpg
+airflow/dags/data_pipeline/static_data/SF_Bay_Jurisdictions_Clip.dbf
+airflow/dags/data_pipeline/static_data/SF_Bay_Jurisdictions_Clip.prj
+airflow/dags/data_pipeline/static_data/SF_Bay_Jurisdictions_Clip.shp
+airflow/dags/data_pipeline/static_data/SF_Bay_Jurisdictions_Clip.shx
