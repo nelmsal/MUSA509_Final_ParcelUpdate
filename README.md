@@ -16,14 +16,14 @@ This pipeline seeks to utilize cloud databases & computing to transform parcel d
 
 ## Data Sources
 1. Updated County Parcels
-    * Contra Costa County Tax Assessor's ArcGIS REST Service
-    * https://ccmap.cccounty.us/arcgis/rest/services/CCMAP/CCMAP/MapServer/0
-    * 186 MB | 382,702+ rows | 10 columns
+  * Contra Costa County Tax Assessor's ArcGIS REST Service
+  * https://ccmap.cccounty.us/arcgis/rest/services/CCMAP/CCMAP/MapServer/0
+  * 186 MB | 382,702+ rows | 10 columns
 
 2. Outdated City Parcel Genealogy 
-    * Walnut Creek Community & Economic Development's ArcGIS REST Service
-    * https://services2.arcgis.com/AhHMUmDoudKVXiUl/ArcGIS/rest/services/Master_Parcels/FeatureServer
+  * Walnut Creek Community & Economic Development's ArcGIS REST Service
+  * https://services2.arcgis.com/AhHMUmDoudKVXiUl/ArcGIS/rest/services/Master_Parcels/FeatureServer
 
 3. Walnut Creek Land Use Zoning Designations
-    * Walnut Creek Community & Economic Development's ArcGIS REST Service
-    * https://services2.arcgis.com/AhHMUmDoudKVXiUl/arcgis/rest/services/Zoning_Districts/FeatureServer
+  * Walnut Creek Community & Economic Development's ArcGIS REST Service
+  * https://services2.arcgis.com/AhHMUmDoudKVXiUl/arcgis/rest/services/Zoning_Districts/FeatureServer
