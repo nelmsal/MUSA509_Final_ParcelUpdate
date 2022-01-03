@@ -3,25 +3,24 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.dummy import DummyOperator
 from datetime import datetime
 from pathlib import Path
-from pipeline_tools import run_transform_gbq
+#from pipeline_tools import run_transform_gbq
 
-from data_pipeline import extract_test
+from data_pipeline import extract_parcels
 
 with DAG(dag_id='data_pipeline',
          schedule_interval='@hourly',
          start_date=datetime(2021, 12, 31),
          catchup=True) as dag:
     
-    extract_test_task = PythonOperator(
-        task_id='extract_test',
-        python_callable=extract_test.main,
+    extract_gene_parcels = PythonOperator(
+        task_id='extract_gene_parcels',
+        python_callable=extract_parcels.main,
     )
 
     load_tasks = DummyOperator(task_id='stage_test_task')
     load_tasks << [
-        extract_test_task,
+        extract_gene_parcels,
     ]
-
 
 # from . import extract_business_licenses
 # from . import extract_commercial_corridors

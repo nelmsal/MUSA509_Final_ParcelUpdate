@@ -14,7 +14,7 @@ def main():
         "outFields":"APN,Current_,Address,City",
         "geometryType":"esriGeometryPolygon"}
 
-    final_df = get_arcgis_json_df.get_featureservice_all(featureservice_path,where_list=where_list,params_dict=params_dict)
+    final_df = get_arcgis_json_all.get_featureservice_all(featureservice_path,where_list=where_list,params_dict=params_dict)
 
     print(final_df)
 

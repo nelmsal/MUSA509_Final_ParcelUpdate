@@ -5,8 +5,7 @@ import geopandas as gpd
 import pathlib
 import requests
 import tempfile
-import gcsfs
-
+#import gcsfs
 
 # PATCH THE GEODATAFRAME.TO_PARQUET FUNCTION.
 original_to_parquet = None
@@ -81,17 +80,32 @@ def local_file_to_gcs(local_file_name, gcs_bucket_name, gcs_blob_name, content_t
     blob = bucket.blob(gcs_blob_name)
     blob.upload_from_filename(local_file_name, content_type=content_type)
 
-def pandas_to_gcs(local_df, gcs_bucket_name, gcs_blob_name, content_type=None):
+def pandas_to_gcs(
+    local_df, gcs_bucket_name, gcs_blob_name
+):
     """
     This function uploads a file from the local machine to Google Cloud Storage.
     """
-    print(f'Saving to GCS file gs://{gcs_bucket_name}/{gcs_blob_name} '
-          f'from pandas dataframe...')
+
+    gcs_path = f'gs://{gcs_bucket_name}/{gcs_blob_name}'
+    temp_path = r'gcs_blob_name.parquet'
+
+    local_df.to_parquet(
+        temp_path
+        #gcs_path,
+        #storage_options={"token": gcs_token}
+        )
 
     storage_robot = storage.Client()
     bucket = storage_robot.bucket(gcs_bucket_name)
     blob = bucket.blob(gcs_blob_name)
-    blob.upload_from_filename(local_file_name, content_type=content_type)
+    blob.upload_from_filename(temp_path)
+
+
+
+    print(f'Saving to GCS file {gcs_path} ', 'from pandas dataframe...')
+
+
 
 def gcs_to_db(gcs_bucket_name, gcs_blob_name, db_conn, table_name, column_names=None):
     """
