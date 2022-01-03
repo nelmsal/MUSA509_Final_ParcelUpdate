@@ -1,7 +1,3 @@
-# This is the environment file for the Airflow docker image.
-AIRFLOW_UID=1000
-AIRFLOW_IMAGE_NAME=final-project-airflow:0.0.1
-
 # Airflow configuration vars
 export AIRFLOW_HOME=$HOME/airflow
 export AIRFLOW_DB_PASSWORD='ACMPP_dno-219a'
