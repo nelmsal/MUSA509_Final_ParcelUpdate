@@ -15,7 +15,7 @@ def get_featureservice_count(
 
     response = requests.get(
         featureservice_path, 
-        #headers=header_dict,
+        #headers=header_dict,/
         params=params_dict)
 
     feature_size_count = json.loads(response.content.decode('utf8'))['count']
